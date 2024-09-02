@@ -1,0 +1,121 @@
+[
+    {
+      "name": "Teacher Pay Teachers",
+      "description": "React JS + TypeScript + Node JS",
+      "website": "https://www.teacherspayteachers.com/",
+      "source": "#",
+      "image": "/img/p2.jpg"
+    },
+    {
+      "name": "Glamorvida Dropshipping",
+      "description": "React JS + Tailwind CSS",
+      "website": "https://glamorvida.com/",
+      "source": "#",
+      "image": "/img/p8.jpg"
+    },
+    {
+      "name": "Fast Furnishings",
+      "description": "Bootstrap + Vue.js + PayPal API",
+      "website": "https://www.fastfurnishings.com/",
+      "source": "#",
+      "image": "/img/p7.jpg"
+    },
+    {
+      "name": "Lifesum",
+      "description": "React JS + Tailwind CSS + Amazon",
+      "website": "https://lifesum.com/",
+      "source": "#",
+      "image": "/img/p9.jpg"
+    },
+    {
+      "name": "Everlywell-Healthcare",
+      "description": "React JS + Tailwind CSS + Amazon",
+      "website": "https://empowerhealth.ai/",
+      "source": "#",
+      "image": "/img/p5.jpg"
+    },
+    {
+      "name": "Reach your credit and money goals",
+      "description": "AWS & AI ChatGPT",
+      "website": "https://www.experian.com/",
+      "source": "#",
+      "image": "/img/p6.jpg"
+    },
+    {
+      "name": "$MONSTERs",
+      "description": "Ethereum Monster NFTs.",
+      "website": "https://chainmonsters.com/",
+      "source": "#",
+      "image": "/img/p4.jpg"
+    },
+    {
+      "name": "Crypto Unicorns",
+      "description": "10,000 Unique NFTs.",
+      "website": "https://www.cryptounicorns.fun/",
+      "source": "#",
+      "image": "/img/p1.jpg"
+    },
+    {
+      "name": "Empower Health AI",
+      "description": "Hubspot CMS & AI Chatbot",
+      "website": "https://empowerhealth.ai/",
+      "source": "#",
+      "image": "/img/p3.jpg"
+    },
+    {
+      "name": "DuckDAO",
+      "description": "Decentralized Autonomous Organization (DAO).",
+      "website": "https://duckdao.io/",
+      "source": "#",
+      "image": "/img/p10.jpg"
+    },
+    {
+      "name": "Furucombo",
+      "description": "Aave flashloans.",
+      "website": "https://furucombo.app/",
+      "source": "#",
+      "image": "/img/p11.jpg"
+    },
+    {
+      "name": "NEST Protocol",
+      "description": "Decentralized Oracle & Market-making.",
+      "website": "https://www.nestprotocol.org/",
+      "source": "#",
+      "image": "/img/p12.jpg"
+    },
+    {
+      "name": "Cream | Cream Finance",
+      "description": "Decentralized Lending & Borrowing.",
+      "website": "https://cream.finance/",
+      "source": "#",
+      "image": "/img/p13.jpg"
+    },
+    {
+      "name": "Harvest Finance",
+      "description": "Decentralized Finance.",
+      "website": "https://www.harvest.finance/",
+      "source": "#",
+      "image": "/img/harvest.jpg"
+    },
+    {
+      "name": "Autofarm Network",
+      "description": "Defi Farming.",
+      "website": "https://autofarm.network/",
+      "source": "#",
+      "image": "/img/autofarm.jpg"
+    },
+    {
+      "name": "Venus",
+      "description": "Defi Lend & Borrow",
+      "website": "https://venus.io/",
+      "source": "#",
+      "image": "/img/venus.jpg"
+    },
+    {
+      "name": "Curve",
+      "description": "DEX Stable Coin Trading.",
+      "website": "https://curve.fi/",
+      "source": "#",
+      "image": "/img/curve.jpg"
+    }
+  ]

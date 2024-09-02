@@ -1,0 +1,320 @@
+@keyframes drop-bounce {
+    0% { transform: translateY(-200px); }
+    10% { transform: translateY(-100px); }
+    20% { transform: translateY(-50px); }
+    30% { transform: translateY(0); }
+    40% { transform: translateY(-130px); }
+    50% { transform: translateY(0); }
+    60% { transform: translateY(-25px); }
+    70% { transform: translateY(0); }
+    80% { transform: translateY(-5px); }
+    90% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
+
+.animate-bounce {
+    animation: drop-bounce 1s ease forwards;  
+}
+@keyframes yesIm-bounce {
+    0%,100% { transform: translateY(0); }
+    10% { transform: translateY(-50px); }
+    20% { transform: translateY(-80px); }
+    30% { transform: translateY(-100px); }
+    40% { transform: translateY(-150px); }
+    50% { transform: translateY(0); }
+    60% { transform: translateY(-25px); }
+    70% { transform: translateY(0); }
+    80% { transform: translateY(-5px); }
+    90% { transform: translateY(0); }
+}
+
+.animate-yesIm {
+    animation: yesIm-bounce 1s ease forwards;  
+}
+
+@keyframes slide-in {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+.animate-slide-in {
+    animation: slide-in 0.75s forwards; /* Fast movement for 'elcome' */
+}
+
+@keyframes fade-in {
+    0% { opacity: 0;}
+    100% { opacity: 100; }
+}
+
+.animate-fade-in {
+    animation: fade-in 2.75s forwards; /* Fast movement for 'elcome' */
+}
+
+@keyframes grow-shrink {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+
+.grow-shrink {
+    animation: grow-shrink 1.5s ease infinite;
+}
+@keyframes grow-shrink-1 {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.grow-shrink-1 {
+    animation: grow-shrink-1 2s ease infinite;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.c-h-0 {
+    min-height: 64px;
+}
+.c-h-1 {
+    min-height: 96px;
+}
+.c-h-2 {
+    min-height: 96px;
+}
+.c-h-3 {
+    min-height: 64px;
+}
+@keyframes slide-in-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rise-blur {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .degree-animation, .university-animation, .coursework-animation, .thesis-animation {
+    animation: rise-blur 0.5s ease forwards;
+    opacity: 0; /* Start hidden */
+  }
+  @keyframes slide-in-left {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slide-in-right {
+  0% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes rise {
+  0% { transform: translateY(20px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.5s forwards;
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.5s forwards;
+}
+
+.animate-rise {
+  animation: rise 0.5s forwards;
+}
+
+.grow-shrink {
+  animation: grow-shrink 1.5s ease infinite;
+}
+.my-built > .hover-contain {
+  position: relative;
+  overflow: hidden; /* Ensures that the initial hidden state blends seamlessly */
+}
+.my-built > .hover-contain > .hover-cover {
+  position: absolute; /* Ensure it's positioned correctly in relation to the parent */
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%; /* Set the initial width to 100% (enables smoother width transition) */
+  opacity: 0; /* Start hidden */
+  transition: height 0.5s ease, opacity 0.5s ease; /* Add transitions */
+}
+.my-built > .hover-contain:hover > .hover-cover {
+  height: 100%; /* Expand to full height */
+  opacity: 0.9; /* Make it fully visible */
+}
+.degree-item {
+  box-sizing: border-box;
+  border: 2px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition-duration: 0.4s;
+}
+.degree-item:after {
+  content: "";
+  background: #56b8fa;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+  overflow: hidden;
+}
+.degree-item:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.degree-item:hover {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  box-shadow: 3px 8px 7px 3px #76767e40;
+  border: 2px solid rgb(30, 62, 222);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.skill-item {
+  box-sizing: border-box;
+  border: 2px solid black;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+}
+.skill-item:after {
+  content: "";
+  background: #a4eea4;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+  overflow: hidden;
+}
+.skill-item:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.skill-item:hover {
+  margin-top: -5px;
+  box-shadow: 3px 8px 7px 3px #76767e40;
+  border: 2px solid green;
+  box-sizing: border-box;
+}
+.transition-width {
+  transition: width 300ms ease; /* Adjust this duration as needed */
+}
+.no-select {
+  user-select: none;           /* Non-standard syntax (most browsers support) */
+  -webkit-user-select: none;   /* Safari */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+}
+.my-box-shadow {
+  box-shadow: 2px 2px 5px 3px grey;
+}
+.clickable {
+  cursor: pointer;
+  transition: all 200ms ease; /* Consolidate your properties for smooth transitions */
+}
+
+.clickable:active {
+  transform: scale(1.055); /* Scale down slightly */
+  box-shadow: 2px 2px 8px 5px rgb(100, 100, 100);  
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+img {
+  pointer-events: none; /* Prevents dragging and clicking */
+}
+h2 {
+  text-shadow: 1px 1px #ff7f50, 2px 2px #ff4500, 3px 3px #ff6347;
+}
+.underline-on-hover:hover {
+  text-decoration: underline;
+}
+.typing-text {
+  display: inline-block; /* Important for the hover effect */
+  position: relative; /* Use position relative for the pseudo-element */
+}
+
+.typing-text:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px; /* Thickness of the underline */
+  background-color: rgb(245, 62, 62); /* Color of the underline */
+  width: 100%;
+  transform: scaleX(0); /* Initially scale it to 0 for animation */
+  transition: transform 0.7s ease; /* Animation effect */
+  transform-origin: bottom right; /* Anchor the animation from the right */
+}
+
+.typing-text:hover:after {
+  transform: scaleX(1); /* On hover, scale to 1 */
+  transform-origin: bottom left; /* Change the anchor point */
+}
+
+.typing-sentence:hover {
+  transition: all 0.3s ease; /* Animation effect */
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgb(53, 50, 47);
+}
+.text-yellow-500 {
+  color: #ff6c00;
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000; /* Background of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0a0a0a; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Round the corners of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the scrollbar thumb on hover */
+}
