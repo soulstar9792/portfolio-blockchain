@@ -130,7 +130,7 @@ const Welcome: React.FC = () => {
             className={`transition-all duration-1000 ${sSAnimationStart && !sSAnimationEnd ? 'animate-bounce' : (!sSAnimationEnd && 'invisible')} ${sSAnimationEnd ? ' animate-pulse' : ''}`}
             style={{ color: 'rgb(253,37,37)' }}
           >
-            S.S
+            C.A
           </span>
           <span
             ref={_sRef}
@@ -156,7 +156,7 @@ const Welcome: React.FC = () => {
       </div>
       <p className={`xl:text-4xl sm:text-2xl transition-opacity text-center duration-1000 ${paragraphVisible ? "opacity-100" : "opacity-0"}`}>
         &nbsp;{paragraphVisible && (
-          <TypingText text="Full-stack developer with expertise in JS frameworks, especially React." />
+          <TypingText text="Blockchain Alchemist who crafts the next generation of blockchains." />
         )}
       </p>
     </section>

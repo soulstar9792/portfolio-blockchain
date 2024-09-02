@@ -1,27 +1,28 @@
 import React, { useEffect, useState, useRef } from 'react';  // Importing useRef and useEffect
 
 const skills = [
-  { name: 'JavaScript', level: 5, class: 'devicon-javascript-plain colored'},
-  { name: 'HTML', level: 5, class: 'devicon-html5-plain colored' },
-  { name: 'Bootstrap', level: 5, class: 'devicon-bootstrap-plain colored'},
-  { name: 'jQuery', level: 5, class: 'devicon-jquery-plain colored'},
-  { name: 'React', level: 5, class: 'devicon-react-original colored'},
-  { name: 'Angular JS', level: 3, class: 'devicon-angularjs-plain colored' },
-  { name: 'Vue.js', level: 3, class: 'devicon-vuejs-plain colored' },
-  { name: 'Next.js', level: 3, class: 'devicon-nextjs-line' },
-  { name: 'PHP', level: 3, class: 'devicon-php-plain colored' },
-  { name: 'Laravel', level: 3, class: 'devicon-laravel-original colored' },
-  { name: 'Node', level: 3, class: 'devicon-nodejs-plain colored' },
-  { name: 'Express', level: 3, class: 'devicon-express-original colored' },
-  { name: 'Python', level: 3, class: 'devicon-python-plain colored' },
-  { name: 'Django', level: 3, class: 'devicon-django-plain colored' },
-  { name: 'MySQL', level: 3, class: 'devicon-mysql-original colored' },
-  { name: 'PostgreSQL', level: 3, class: 'devicon-postgresql-plain colored' },
-  { name: 'MongoDB', level: 3, class: 'devicon-mongodb-plain colored' },
-  { name: 'Git', level: 3, class: 'devicon-git-plain colored' },
-  { name: 'AWS', level: 3, class: 'devicon-amazonwebservices-plain-wordmark colored' },
-  { name: 'Docker', level: 3, class: 'devicon-docker-plain colored' },
-  { name: 'Apache', level: 3, class: 'devicon-apache-plain colored' },
+  { name: 'Solidity', level: 5, class: 'devicon-solidity-plain colored'},
+  { name: 'Node', level: 5, class: 'devicon-nodejs-plain colored' },
+  { name: 'Python', level: 4, class: 'devicon-python-plain colored' },
+  { name: 'Go', level: 3, class: 'devicon-go-original-wordmark colored' },
+  { name: 'Rust', level: 3, class: 'devicon-rust-line'},
+  { name: 'Ethereum', level: 5, path: '/img/ethereum.png'},
+  { name: 'Hyperledger', level: 4, path: '/img/hyperledger.png'},
+  { name: 'EOS', level: 4, path: '/img/eos.png'},
+  { name: 'Biance', level: 4, path: '/img/binance.png'},
+  { name: 'Polygon', level: 4, class: 'devicon-polygon-plain colored'},
+  { name: 'Truffle', level: 4, path: '/img/truffle.png'},
+  { name: 'Hardhat', level: 4, path: '/img/hard-hat.png'},
+  { name: 'Web3.js', level: 5, path: '/img/web3.png'},
+  { name: 'Ether.js', level: 3, path: '/img/ethereum_1.png'},
+  { name: 'MySQL', level: 5, class: 'devicon-mysql-original colored' },
+  { name: 'PostgreSQL', level: 4, class: 'devicon-postgresql-plain colored' },
+  { name: 'MongoDB', level: 4, class: 'devicon-mongodb-plain colored' },
+  { name: 'IPFS', level: 4, path: '/img/ipfs.svg'},
+  { name: 'Bitcoin', level: 4, path: '/img/bitcoin.png'},
+  { name: 'Solana', level: 3, path: '/img/solana.png'},
+  { name: 'DAO', level: 4, path: '/img/dao.png'},
+  { name: 'Defi', level: 4, path: '/img/defi.png'},
   // Add your remaining skills here...
 ];
 
@@ -123,7 +124,7 @@ const Whiz: React.FC = () => {
         {skills.map((skill, index) => (
           <div key={skill.name} className={`flex flex-col items-center text-md sm:text-2xl p-2 sm:p-5 skill-item transition duration-1000 ${visibleItem > index? 'opacity-100' : 'opacity-0'}`}>
             <div>{skill.name}</div>
-            <i className={`${skill.class} text-4xl sm:text-6xl`} />
+            {skill.class ? <i className={`${skill.class} text-4xl sm:text-6xl`} /> : <img src={process.env.PUBLIC_URL + skill.path} alt={skill.name} className='w-[60px]' />}
             {/* You can add icons for other skills here */}
             <div>
               {Array.from({ length: 5 }, (_, index) => (

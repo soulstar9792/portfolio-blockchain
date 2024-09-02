@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useRef } from 'react';
 
 const sentences = [
-  { text: "I am Soul Star, a dedicated software developer specializing in full-stack development.", delay: 0 },
-  { text: "With expertise in JavaScript, React, and PHP, along with frameworks like Laravel and Next.js, I create engaging and high-quality digital solutions.", delay: 3000 },
-  { text: "Committed to continuous learning and collaboration, I strive to build intuitive applications that resonate with users and meet project goals.", delay: 7500 },
-  { text: "Explore my portfolio to see how I can help bring your vision to life.", delay: 12000 }
+  { text: "I am Crypto Ant, a Blockchain Developer dedicated to building decentralized solutions that empower users and protect their privacy.", delay: 0 },
+  { text: "I create engaging DApps that enhance user experience and promote decentralization. ", delay: 4300 },
+  { text: "My mission is to explore blockchain's potential and make a meaningful impact with each project.", delay: 7000 },
+  { text: "Explore my portfolio to see how I can help bring your vision to life.", delay: 10500 }
 ];
 
 const Who: React.FC = () => {

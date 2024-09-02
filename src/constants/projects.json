@@ -1,47 +1,5 @@
 [
     {
-      "name": "Teacher Pay Teachers",
-      "description": "React JS + TypeScript + Node JS",
-      "website": "https://www.teacherspayteachers.com/",
-      "source": "#",
-      "image": "/img/p2.jpg"
-    },
-    {
-      "name": "Glamorvida Dropshipping",
-      "description": "React JS + Tailwind CSS",
-      "website": "https://glamorvida.com/",
-      "source": "#",
-      "image": "/img/p8.jpg"
-    },
-    {
-      "name": "Fast Furnishings",
-      "description": "Bootstrap + Vue.js + PayPal API",
-      "website": "https://www.fastfurnishings.com/",
-      "source": "#",
-      "image": "/img/p7.jpg"
-    },
-    {
-      "name": "Lifesum",
-      "description": "React JS + Tailwind CSS + Amazon",
-      "website": "https://lifesum.com/",
-      "source": "#",
-      "image": "/img/p9.jpg"
-    },
-    {
-      "name": "Everlywell-Healthcare",
-      "description": "React JS + Tailwind CSS + Amazon",
-      "website": "https://empowerhealth.ai/",
-      "source": "#",
-      "image": "/img/p5.jpg"
-    },
-    {
-      "name": "Reach your credit and money goals",
-      "description": "AWS & AI ChatGPT",
-      "website": "https://www.experian.com/",
-      "source": "#",
-      "image": "/img/p6.jpg"
-    },
-    {
       "name": "$MONSTERs",
       "description": "Ethereum Monster NFTs.",
       "website": "https://chainmonsters.com/",
@@ -54,13 +12,6 @@
       "website": "https://www.cryptounicorns.fun/",
       "source": "#",
       "image": "/img/p1.jpg"
-    },
-    {
-      "name": "Empower Health AI",
-      "description": "Hubspot CMS & AI Chatbot",
-      "website": "https://empowerhealth.ai/",
-      "source": "#",
-      "image": "/img/p3.jpg"
     },
     {
       "name": "DuckDAO",
