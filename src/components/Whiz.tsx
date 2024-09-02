@@ -21,6 +21,8 @@ const skills = [
   { name: 'IPFS', level: 4, path: '/img/ipfs.svg'},
   { name: 'Bitcoin', level: 4, path: '/img/bitcoin.png'},
   { name: 'Solana', level: 3, path: '/img/solana.png'},
+  { name: 'Meme', level: 4, path: '/img/meme.png'},
+  { name: 'NFT', level: 5, path: '/img/nft.png'},
   { name: 'DAO', level: 4, path: '/img/dao.png'},
   { name: 'Defi', level: 4, path: '/img/defi.png'},
   // Add your remaining skills here...
