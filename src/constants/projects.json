@@ -4,69 +4,80 @@
       "description": "Ethereum Monster NFTs.",
       "website": "https://chainmonsters.com/",
       "source": "#",
-      "image": "/img/p4.jpg"
+      "image": "/img/p4.jpg",
+      "skills": ["Solidity", "Polygon", "NFT"]
     },
     {
       "name": "Crypto Unicorns",
       "description": "10,000 Unique NFTs.",
       "website": "https://www.cryptounicorns.fun/",
       "source": "#",
-      "image": "/img/p1.jpg"
+      "image": "/img/p1.jpg",
+      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "NFT", "Ethereum"]
     },
     {
       "name": "DuckDAO",
       "description": "Decentralized Autonomous Organization (DAO).",
       "website": "https://duckdao.io/",
       "source": "#",
-      "image": "/img/p10.jpg"
+      "image": "/img/p10.jpg",
+      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "NFT", "Ethereum", "web3.js"]
     },
     {
       "name": "Furucombo",
       "description": "Aave flashloans.",
       "website": "https://furucombo.app/",
       "source": "#",
-      "image": "/img/p11.jpg"
+      "image": "/img/p11.jpg",
+      "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum"]
     },
     {
       "name": "NEST Protocol",
       "description": "Decentralized Oracle & Market-making.",
       "website": "https://www.nestprotocol.org/",
       "source": "#",
-      "image": "/img/p12.jpg"
+      "image": "/img/p12.jpg",
+      "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum", "Python", "TensorFlow"]
     },
     {
-      "name": "Cream | Cream Finance",
+      "name": "Cream Finance",
       "description": "Decentralized Lending & Borrowing.",
       "website": "https://cream.finance/",
       "source": "#",
-      "image": "/img/p13.jpg"
+      "image": "/img/p13.jpg",
+      "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum", "Defi"]
+
     },
     {
       "name": "Harvest Finance",
       "description": "Decentralized Finance.",
       "website": "https://www.harvest.finance/",
       "source": "#",
-      "image": "/img/harvest.jpg"
+      "image": "/img/harvest.jpg",
+      "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum", "Defi"]
     },
     {
       "name": "Autofarm Network",
       "description": "Defi Farming.",
       "website": "https://autofarm.network/",
       "source": "#",
-      "image": "/img/autofarm.jpg"
+      "image": "/img/autofarm.jpg",
+      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "Ethereum", "web3.js"]
     },
     {
       "name": "Venus",
       "description": "Defi Lend & Borrow",
       "website": "https://venus.io/",
       "source": "#",
-      "image": "/img/venus.jpg"
+      "image": "/img/venus.jpg",
+      "skills": ["Solidity", "React", "Ethereum", "web3.js"]
     },
     {
       "name": "Curve",
       "description": "DEX Stable Coin Trading.",
       "website": "https://curve.fi/",
       "source": "#",
-      "image": "/img/curve.jpg"
+      "image": "/img/curve.jpg",
+      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "Ethereum", "web3.js"]
     }
   ]

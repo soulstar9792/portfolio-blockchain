@@ -7,6 +7,7 @@ interface Project {
   description: string;
   website?: string;
   source?: string;
+  skills?: string[];
 }
 
 const projects: Project[] = require('../constants/projects.json');
@@ -128,14 +129,22 @@ const Which: React.FC = () => {
       </h2>
       <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 my-built px-5 xl:p-0 md:px-20 sm:px-10">
         {currentProjects.map((project, index) => (
-          <div key={project.name} className={`relative bg-gray-800 hover:bg-gray-700 transition duration-1000 my-box-shadow clickable hover-contain  ${visibleItem > index? 'opacity-100 animate-slide-in' : 'opacity-0'}`}>
+          <div key={project.name} title={project.description} className={`relative bg-gray-800 hover:bg-gray-700 transition duration-1000 my-box-shadow clickable hover-contain  ${visibleItem > index? 'opacity-100 animate-slide-in' : 'opacity-0'}`}>
             <img src={process.env.PUBLIC_URL + project.image} alt={project.name} className="w-full h-auto" />
-            <div className="absolute flex flex-col items-center justify-center bg-gray-900 opacity-100 transition duration-1000 hover-cover text-2xl">
-              <p>{project.description}</p><br></br>
+            <div className="absolute flex space flex-col items-center justify-between bg-gray-900 opacity-100 transition duration-1000 hover-cover text-2xl">
+              <p className='text-md md:text-lg text-center mt-4'>{project.name}</p>
               <div className="flex space-x-2">
-                {project.website && <a href={project.website} target='_blank' rel="noopener noreferrer" className="text-blue-400 hover:-mt-1 hover:mb-1 hover:underline">🌐</a>}
+                {project.website && <a href={project.website} target='_blank' rel="noopener noreferrer" className="text-blue-400 hover:cursor-pointer hover:-mt-1 hover:mb-1 hover:underline">🌐</a>}
                 {/* {project.source && <a href={project.source} target='_blank' rel="noopener noreferrer" className="text-green-400 hover:-mt-1 hover:underline">💻</a>} */}
               </div>
+              {project.skills && <div className="flex space-x-2 flex-wrap content-between mb-2">
+                <div></div>
+                {project.skills.map((skill, index) => (
+                  <div key={index} className="bg-gray-700 text-white text-xs px-2 py-1 mt-1 rounded-full hover:bg-gray-600 hover:cursor-pointer">
+                    {skill}
+                  </div>
+                ))}
+              </div>}
             </div>
           </div>
         ))}
