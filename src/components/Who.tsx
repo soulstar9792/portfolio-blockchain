@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 
 const sentences = [
-  { text: "I am Crypto Ant, a Blockchain Developer dedicated to building decentralized solutions that empower users and protect their privacy.", delay: 0 },
+  { text: "I am Soul Star, a Blockchain Developer dedicated to building decentralized solutions that empower users and protect their privacy.", delay: 0 },
   { text: "I create engaging DApps that enhance user experience and promote decentralization. ", delay: 4300 },
   { text: "My mission is to explore blockchain's potential and make a meaningful impact with each project.", delay: 7000 },
   { text: "Explore my portfolio to see how I can help bring your vision to life.", delay: 10500 }

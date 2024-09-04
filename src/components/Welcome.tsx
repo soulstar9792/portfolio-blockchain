@@ -130,7 +130,7 @@ const Welcome: React.FC = () => {
             className={`transition-all duration-1000 ${sSAnimationStart && !sSAnimationEnd ? 'animate-bounce' : (!sSAnimationEnd && 'invisible')} ${sSAnimationEnd ? ' animate-pulse' : ''}`}
             style={{ color: 'rgb(253,37,37)' }}
           >
-            C.A
+            S.S
           </span>
           <span
             ref={_sRef}

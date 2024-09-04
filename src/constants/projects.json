@@ -1,83 +1,147 @@
 [
     {
       "name": "$MONSTERs",
-      "description": "Ethereum Monster NFTs.",
+      "description": "Chainmonsters is a massive multiplayer online RPG where you catch, battle, trade, explore, and combine different types of monsters.",
       "website": "https://chainmonsters.com/",
       "source": "#",
-      "image": "/img/p4.jpg",
-      "skills": ["Solidity", "Polygon", "NFT"]
+      "image": "/img/projects/chain-monsters.jpg",
+      "skills": ["Solidity", "Flow", "NFT", "GameFi"]
     },
     {
       "name": "Crypto Unicorns",
-      "description": "10,000 Unique NFTs.",
+      "description": "Crypto Unicorns is a playful Farming and Unicorn Breeding Game built on the blockchain.",
       "website": "https://www.cryptounicorns.fun/",
       "source": "#",
-      "image": "/img/p1.jpg",
-      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "NFT", "Ethereum"]
+      "image": "/img/projects/crypto-unicons.jpg",
+      "skills": ["Solidity", "NFT", "GameFi", "Play to Earn", "Marketplaces", "Farming"]
     },
     {
-      "name": "DuckDAO",
-      "description": "Decentralized Autonomous Organization (DAO).",
+      "name": "DuckDAO Hunters",
+      "description": "DuckDAO Hunters is a collectible card game where participants race to complete sets of NFTs in order to have a chance to win prizes during the season. The game consists of 48 cards – each with their own rarity, story, and style. The grand prize will go to the person that collects all 48 cards or the person that owns the most cards at the end of the season.",
       "website": "https://duckdao.io/",
       "source": "#",
-      "image": "/img/p10.jpg",
-      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "NFT", "Ethereum", "web3.js"]
+      "image": "/img/projects/duckdao-hunters.jpg",
+      "skills": ["Solidity", "NFT", "GameFi", "Ethereum", "web3.js"]
+    },
+    {
+      "name": "Crystals of Fate",
+      "description": "Crystals of Fate (CoF) is a next-generation competitive blockchain-compatible, play-and-earn NFT collectible card game (CCG).", 
+      "website": "https://www.crystalsoffate.com/",
+      "source": "#",
+      "image": "/img/projects/crystals-of-fate.jpg",
+      "skills": ["Solidity", "NFT", "Marketplaces", "Play to Earn", "Hardhat", "web3.js"]
+    },
+    {
+      "name": "Boss Fighters",
+      "description": "BOSS FIGHTERS is a multiplayer action game where a VR player controls a  Boss, fighting a team of PC players in intense and wacky battles.",
+      "website": "https://bossfighters.game/",
+      "source": "#",
+      "image": "/img/projects/boss-fighters.jpg",
+      "skills": ["Polygon", "GameFi", "VR"]
+    },
+    {
+      "name": "Anome",
+      "description": "Anome aims to build an integrated ecosystem combining DeFi, NFTFi, and GameFi, striving to become the largest cryptocurrency issuance and lending platform by global TVL, empowering users to unlock the liquidity and value of their NFT assets.",
+      "website": "https://anome.xyz/",
+      "source": "#",
+      "image": "/img/projects/anome.jpg",
+      "skills": ["NFT", "GameFi", "Marketplaces", "DeFi"]
+    },
+    {
+      "name": "Heart of Gold | NFT",
+      "description": "Heart of Gold is NFT project at the crossroads between GAMEFi and Play-to-Earn.Heart of Gold is a collection of 10,000 unique NFTs on BNB Chain that are also lottery tickets. The project is built on win-win gaming mechanics, everyone who mints an HoG NFT can win.",
+      "website": "https://heartofgoldnft.com/",
+      "source": "#",
+      "image": "/img/projects/heart-of-gold.jpg",
+      "skills": ["NFT", "GameFi", "Play to Earn", "DeFi", "BNB", "Smart Chain"]
     },
     {
       "name": "Furucombo",
-      "description": "Aave flashloans.",
+      "description": "Furucombo is a tool built for end-users to optimize their DeFi strategy simply by drag and drop. Just like building your own DeFi legos, but you don’t need to know how to code. It visualizes complex DeFi protocols into cubes.",
       "website": "https://furucombo.app/",
       "source": "#",
-      "image": "/img/p11.jpg",
-      "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum"]
+      "image": "/img/projects/furucombo.jpg",
+      "skills": ["Solidity", "Ethereum", "Defi", "web3.js"]
+    },
+    {
+      "name": "Super Champs: Racket Rampage",
+      "description": "Play as an up-and-coming star at Super Champs Academy, an elite school for superhero athletes.",
+      "website": "https://www.superchamps.com/",
+      "source": "#",
+      "image": "/img/projects/super-champs.jpg",
+      "skills": ["NFT", "GameFi", "Play to Earn", "Ethereum", "Polygon", "Base"]
+    },
+    {
+      "name": "Baby Shark Universe",
+      "description": "Baby Shark Universe aims to create a metaverse ecosystem with the YouTube #1 video, Baby Shark Official IP. By providing a variety of contents through various IP partnerships, action RPG like games and numerous UGC contents created through editors provided, users can enjoy the metaverse.",
+      "website": "https://babysharkuniverse.io/",
+      "source": "#",
+      "image": "/img/projects/baby-shark-universe.jpg",
+      "skills": ["NFT", "GameFi", "Play to Earn", "Metaverse"]
+    },
+    {
+      "name": "Planet Mojo",
+      "description": "Planet Mojo is an ecosystem of interconnected games built by Mystic Moose and set inside a mysterious alien planet with an evolving narrative. Players compete with customized teams of fantastical creatures in a suite of eSports, PvP games.",
+      "website": "https://www.planetmojo.io/",
+      "source": "#",
+      "image": "/img/projects/planet-mojo.jpg",
+      "skills": ["NFT", "GameFi", "Metaverse", "Marketplaces", "DeFi"]
     },
     {
       "name": "NEST Protocol",
-      "description": "Decentralized Oracle & Market-making.",
+      "description": "NEST Protocol is a decentralized price oracle based on Ethereum.",
       "website": "https://www.nestprotocol.org/",
       "source": "#",
-      "image": "/img/p12.jpg",
-      "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum", "Python", "TensorFlow"]
+      "image": "/img/projects/nest-protocol.jpg",
+      "skills": ["Solidity", "Ethereum", "Defi", "web3.js"]
     },
     {
       "name": "Cream Finance",
       "description": "Decentralized Lending & Borrowing.",
       "website": "https://cream.finance/",
       "source": "#",
-      "image": "/img/p13.jpg",
+      "image": "/img/projects/cream-finance.jpg",
       "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum", "Defi"]
 
     },
     {
       "name": "Harvest Finance",
-      "description": "Decentralized Finance.",
+      "description": "Harvest automatically farms the highest yields in DeFi.",
       "website": "https://www.harvest.finance/",
       "source": "#",
-      "image": "/img/harvest.jpg",
+      "image": "/img/projects/harvest-finance.jpg",
       "skills": ["Solidity", "React", "Node.js", "Express.js", "web3.js", "Ethereum", "Defi"]
     },
     {
       "name": "Autofarm Network",
-      "description": "Defi Farming.",
+      "description": "AutoFarm is a yield farming aggregator running on 16 different EVM-compatible networks.",
       "website": "https://autofarm.network/",
       "source": "#",
-      "image": "/img/autofarm.jpg",
-      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "Ethereum", "web3.js"]
+      "image": "/img/projects/autofarm-network.jpg",
+      "skills": ["Exchanges", "Yield Farming", "DeFi"]
     },
     {
-      "name": "Venus",
-      "description": "Defi Lend & Borrow",
+      "name": "Venus Protocol",
+      "description": "Venus is an decentralized algorithmic money market and stablecoin protocol that enables borrowers and suppliers to access liquidity and earnings on-demand.",
       "website": "https://venus.io/",
       "source": "#",
-      "image": "/img/venus.jpg",
-      "skills": ["Solidity", "React", "Ethereum", "web3.js"]
+      "image": "/img/projects/venus.jpg",
+      "skills": ["BNB", "Smart Chain", "DeFi"]  
+    },
+    {
+      "name": "Unfettered Origins",
+      "description": "The Unfettered Ecosystem (Souls-Verse) offers a comprehensive collection of games spanning diverse genres, meticulously designed to cater to discerning users. Specific titles within this environment showcase AI features, enhancing the overall gaming experience. Anchored by $SOULS as the central token, this ecosystem guarantees a unified and immersive gaming experience.",
+      "website": "https://www.theunfettered.io/",
+      "source": "#",
+      "image": "/img/projects/unfettered-origins.jpg",
+      "skills": ["Linea", "Staking", "NFT", "GameFi", "Play to Earn", "Metaverse"]  
     },
     {
       "name": "Curve",
-      "description": "DEX Stable Coin Trading.",
+      "description": "Exchange / DeFi savings tool for stablecoins.",
       "website": "https://curve.fi/",
       "source": "#",
-      "image": "/img/curve.jpg",
-      "skills": ["Solidity", "React", "Next.js", "TailwindCSS", "Hardhat", "Polygon", "Ethereum", "web3.js"]
+      "image": "/img/projects/curve.jpg",
+      "skills": ["Ethereum", "Polygon", "Avalanche", "Defi"]
     }
   ]
